@@ -11,5 +11,5 @@ create dev profile:
 	prefect profile create dev
 	prefect profile use dev
 	prefect config set PREFECT_LOGGING_LEVEL=DEBUG
-	prefect config set PREFECT_API_KEY=pnu_lk94SH0cIvI2CsNDyfl08LMhCsl3F54jLwvb
+	prefect config set PREFECT_API_KEY=xxxxxxxxxxxxx
 	# prefect cloud workspace set --workspace "default"
