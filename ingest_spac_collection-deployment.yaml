@@ -1,0 +1,43 @@
+###
+### A complete description of a Prefect Deployment for flow 'ingest-spac-collection'
+###
+name: ingest_deployment
+description: null
+version: 13a95d937cc47a117ce9f7c493622362
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {}
+schedule: null
+schedules: []
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: ingest-spac-collection
+manifest_path: null
+storage: null
+path: /Users/robert/repos/private_repos/liveeo_project
+entrypoint: flows/ingestion/ingest_spac_collection.py:ingest_spac_collection
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2024-06-23T18:19:12.733135+00:00'
+triggers: []
+enforce_parameter_schema: null
